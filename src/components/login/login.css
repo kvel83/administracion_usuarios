@@ -1,0 +1,45 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    margin-top: 7px;
+}
+#labelPass {
+    margin-top: 20px;
+}
+#root{
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    width: 20%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+    border-radius: 20px;
+    border: gray 2px solid;
+    margin-top: 200px;
+    position: relative;
+}
+#password{
+    margin-bottom: 8px;
+}
+.input_icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+
+  .input_icon svg {
+    font-size: 18px;
+  }

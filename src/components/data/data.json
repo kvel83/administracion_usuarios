@@ -1,0 +1,57 @@
+{
+    "tipo_usuarios": [
+      {
+        "cardinal": 1,
+        "desc": "Crea, consulta, modifica y elimina nuevos usuarios. Ve y modifica sus datos básicos",
+        "tipo": "Administrador"
+      },
+      {
+        "cardinal": 2,
+        "desc": "Consulta y modifica  usuarios. Ve y modifica sus datos básicos",
+        "tipo": "Supervisor"
+      },
+      {
+        "cardinal": 3,
+        "desc": "Consulta usuarios. Ve y modifica sus datos básicos",
+        "tipo": "Usuario"
+      }
+    ],
+    "users": [
+      {
+        "email": "admin@colaboradores.cl",
+        "name": {
+          "first": "Paulina",
+          "last": "Rubio"
+        },
+        "phone": "562255544321",
+        "picture": {
+          "medium": "https://randomuser.me/api/portraits/med/women/80.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/80.jpg"
+        }
+      },
+      {
+        "email": "supervisor@colaboradores.cl",
+        "name": {
+          "first": "Pedro",
+          "last": "Barría"
+        },
+        "phone": "+562238944321",
+        "picture":{
+          "medium": "https://randomuser.me/api/portraits/med/men/36.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/36.jpg"
+        }
+      },
+      {
+        "email": "usuario@colaboradores.cl",
+        "name":{
+          "first": "Marisol",
+          "last": "Pérez"
+        },
+        "phone": "+562238944111",
+        "picture":{
+          "medium": "https://randomuser.me/api/portraits/med/woman/47.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/woman/47.jpg"
+        }
+      }
+    ]
+  }

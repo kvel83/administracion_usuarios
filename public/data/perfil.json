@@ -1,0 +1,22 @@
+[
+    {
+        "perfil" : 1,
+        "name" : "administrator",
+        "options" : [1,2,3,4,5]
+    },
+    {
+        "perfil" : 2,
+        "name" : "supervisor",
+        "options" : [1,2,4,5]
+    },
+    {
+        "perfil" : 3,
+        "name" : "user",
+        "options" : [1,5]
+    },
+    {
+        "perfil" : 4,
+        "name" : "guest",
+        "options" : [1]
+    }
+]
